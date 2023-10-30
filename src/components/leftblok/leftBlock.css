@@ -1,0 +1,27 @@
+.side-navigation {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  height: 100%;
+  height: 100vh;
+}
+
+.side-navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-navigation li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #555;
+}
+
+.side-navigation a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.side-navigation a:hover {
+  background-color: #555;
+}
