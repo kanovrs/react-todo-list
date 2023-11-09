@@ -1,0 +1,27 @@
+.todo-list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+  width: 800px;
+  height: 100vh;
+  border-radius: 50px;
+}
+
+.todo-list__block {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgba(235, 183, 25, 0.648);
+  padding: 0;
+  height: 90vh;
+  border-radius: 10px;
+}
+
+.todo-list__elem {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}

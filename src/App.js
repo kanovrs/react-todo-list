@@ -1,10 +1,10 @@
 import React from 'react'
-import EmojiList from './components/EmojiList/EmojiList.js';
+import ToDolist from './components/ToDoList/ToDoList.js';
 
 function App() {
   return (
     <>
-     <EmojiList />
+     <ToDolist />
       
     </>
   );
